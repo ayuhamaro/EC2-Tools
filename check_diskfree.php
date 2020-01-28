@@ -32,7 +32,7 @@
                     echo "容量足夠\n";
                 }
             }else{
-				$this->__send_mail("<p>解析錯誤<p>");
+		$this->__send_mail("<p>解析錯誤<p>");
                 echo "解析錯誤\n";
             }
 
